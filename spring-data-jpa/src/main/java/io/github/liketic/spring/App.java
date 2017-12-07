@@ -1,12 +1,10 @@
-package io.github.liketic.spring.user;
+package io.github.liketic.spring;
 
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 @SpringBootApplication
-@MapperScan("io.github.liketic.spring.user")
 public class App {
 
     public static void main(String[] args) {

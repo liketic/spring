@@ -1,4 +1,4 @@
-package io.github.liketic.spring.user.user;
+package io.github.liketic.spring.user;
 
 
 public class User {

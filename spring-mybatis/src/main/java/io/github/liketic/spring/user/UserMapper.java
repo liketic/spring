@@ -1,4 +1,4 @@
-package io.github.liketic.spring.user.user;
+package io.github.liketic.spring.user;
 
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
