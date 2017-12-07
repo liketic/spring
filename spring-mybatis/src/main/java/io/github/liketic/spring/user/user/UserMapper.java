@@ -16,14 +16,8 @@ public interface UserMapper {
      *
      * @param user
      */
-    @Insert("INSERT INTO users(" +
-            "login," +
-            "password," +
-            "email)" +
-            " VALUES(" +
-            "#{login}," +
-            "#{password}," +
-            "#{email})")
+    @Insert("INSERT INTO users(login,password,email)" +
+            " VALUES(#{login},#{password},#{email})")
     @Options(useGeneratedKeys = true, keyColumn = "id")
     void create(User user);
 
